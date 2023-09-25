@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns0:uploadResponse xmlns:ns0="http://upload.sharepoint.api.microsoft.mira/">
+         <return>
+            <message>Documento 'Cotizacion Prueba.pdf' cargado correctamente en Sharepoint</message>
+            <success>true</success>
+            <information id="MajorVersion">13</information>
+            <information id="LinkingUrl"/>
+            <information id="UniqueId">2a51e0e7-81fc-4929-beea-9a51c6a31c18</information>
+            <information id="LinkingUri"/>
+            <information id="TimeLastModified">2020-06-24T20:35:59Z</information>
+            <information id="MinorVersion">0</information>
+            <information id="Title"/>
+            <information id="UIVersionLabel">13.0</information>
+            <information id="IrmEnabled">false</information>
+            <information id="Name">Cotizacion Prueba.pdf</information>
+            <information id="TimeCreated">2020-06-24T19:36:04Z</information>
+            <information id="CheckInComment"/>
+            <information id="CheckOutType">2</information>
+            <information id="ETag">"{2A51E0E7-81FC-4929-BEEA-9A51C6A31C18},13"</information>
+            <information id="Length">28610</information>
+            <information id="Exists">true</information>
+            <information id="ServerRelativeUrl">/sites/ProyectMIRA/Documentos compartidos/MIRA/Prueba_1_29042020/Cotizacion Prueba.pdf</information>
+            <information id="ContentTag">{2A51E0E7-81FC-4929-BEEA-9A51C6A31C18},13,13</information>
+            <information id="UIVersion">6656</information>
+            <information id="Level">1</information>
+            <information id="CustomizedPageStatus">0</information>
+         </return>
+      </ns0:uploadResponse>
+   </S:Body>
+</S:Envelope>

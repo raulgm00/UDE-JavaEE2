@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:api="http://api.quotes.mira/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <api:exportQuote>
+         <payload>
+ 
+            <param>
+               <key>grant_type</key>
+               <value>client_credentials</value>
+            </param>
+            <param>
+               <key>resource</key>
+               <value>00000003-0000-0ff1-ce00-000000000000/ceterimx.sharepoint.com@7f6f4932-9358-4b44-af1d-4fcf875db732</value>
+            </param>
+            <param>
+               <key>client_id</key>
+               <value>6d93e2c7-e69d-4257-805c-01a9a9bb81a5@7f6f4932-9358-4b44-af1d-4fcf875db732</value>
+            </param>
+            <param>
+               <key>client_secret</key>
+               <value>:AZIPCO=o5D?2u6:NSnc2UOb0084h.wv</value>
+            </param>
+
+            
+            <cpqURL>https://miratest1.bigmachines.com/v2_0/receiver/commerce/oraclecpqo</cpqURL>
+            <cpqUser>integradorDes</cpqUser>
+            <cpqUserPassword>Oracle123-</cpqUserPassword>
+            <documentNum>1</documentNum>
+            <sharepointDocName>Cotizacion Proyecto.pdf</sharepointDocName>
+            <sharepointServUploadRelativeURL>Documentos compartidos/MIRA/Prueba_1_29042020</sharepointServUploadRelativeURL>
+            <sharepointServUploadURL>https://ceterimx.sharepoint.com/sites/ProyectMIRA/_api/web/GetFolderByServerRelativeUrl</sharepointServUploadURL>
+            <transactionId>38969244</transactionId>
+            <variableName>DocumentoChecklist00_t</variableName>           
+         	  <sharepointProxyServURL>http://localhost:7001/msproxy/UploadDocumentService</sharepointProxyServURL>
+         
+         </payload>
+      </api:exportQuote>
+   </soapenv:Body>
+</soapenv:Envelope>
